@@ -1,0 +1,12 @@
+body {
+  background-color: black;
+}
+
+.wd-flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.wd-flex {
+  display: flex;
+}
