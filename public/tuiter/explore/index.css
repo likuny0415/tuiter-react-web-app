@@ -12,9 +12,9 @@
   width: 100%;
 }
 
-input::placeholder {
+/* input::placeholder {
   color: white;
-}
+} */
 
 .wd-gear {
   margin-left: auto;
