@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 export default [
   {
     avatarIcon: "../explore/java.png",
@@ -25,3 +26,4 @@ export default [
     handle: "Tesla",
   },
 ];
+
