@@ -6,15 +6,16 @@ const NavigationSidebar = (
    active = 'explore'
  }
 ) => {
+  active= window.location.pathname;
  return (
    <div className="list-group">
      <a className="list-group-item">Tuiter</a>
      <a className={`list-group-item
-                    ${active === 'home'?'active':''}`}>
+                    ${active === '/tuiter'?'active':''}`}>
        Home
      </a>
      <a className={`list-group-item
-                    ${active === 'explore'?'active':''}`}>
+                    ${active === '/tuiter/explore'?'active':''}`}>
        Explore
      </a>
      <a className={`list-group-item

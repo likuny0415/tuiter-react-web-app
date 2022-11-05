@@ -1,0 +1,59 @@
+[
+  {
+    "_id": 234,
+    "topic": "Space",
+    "userName": "SpaceX",
+    "time": "2h",
+    "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+    "image": "spacex.png",
+    "liked": true,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 2345,
+    "handle": "@spacex",
+    "tuit": "JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries"
+  },
+  {
+    "_id": 12,
+    "topic": "Web Development",
+    "userName": "JavaScript",
+    "time": "1 day",
+    "title": "JavaScript is programming language that can run on browsers as well as desktops",
+    "image": "js.png",
+
+    "liked": false,
+    "replies": "22",
+    "retuits": "32",
+    "likes": "40",
+    "handle": "@javascript",
+    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+  },
+  {
+    "_id": 345,
+    "topic": "Web Development",
+    "userName": "jQuery",
+    "title": "jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.",
+    "time": "last week",
+    "image": "jquery.png",
+    "liked": true,
+    "replies": "782k",
+    "retuits": "319k",
+    "likes": "123k",
+    "handle": "@jq",
+    "tuit": "jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. It is free, open-source software using the permissive MIT License. As of Aug 2022, jQuery is used by 77% of the 10 million most popular websites"
+  },
+  {
+    "_id": 456,
+    "topic": "Web Development",
+    "userName": "NodeJS",
+    "title": "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.",
+    "time": "last month",
+    "image": "nodejs.png",
+    "liked": true,
+    "replies": "498",
+    "retuits": "123",
+    "likes": "134",
+    "handle": "@nodejs",
+    "tuit": "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on a JavaScript Engine and executes JavaScript code outside a web browser, which was designed to build scalable network applications."
+  }
+]
