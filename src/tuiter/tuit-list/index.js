@@ -8,8 +8,6 @@ import TuitListItem
 const TuitList = () => {
     const tuits = useSelector(
         state => state.tuits);
-
-    console.log(tuits)
     return (
         <ul className="ttr-tuits list-group">
             {
