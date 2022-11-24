@@ -33,7 +33,7 @@ const tuitsSlice = createSlice({
   extraReducers: {
     [updateTuitThunk.fulfilled]: (state, { payload }) => {
       state.loading = false;
-      console.log(payload)
+      
       const tuitNdx = state.tuits.findIndex((t) => t._id === payload._id);
       state.tuits[tuitNdx] = {
         ...state.tuits[tuitNdx],

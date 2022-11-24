@@ -10,7 +10,7 @@ const TuitsList = () => {
     dispatch(findTuitsThunk());
   }, []); //eslint-disable-line react-hooks/exhaustive-deps
 
-  console.log(tuits)
+  
 
   return (
     <ul className="list-group">
