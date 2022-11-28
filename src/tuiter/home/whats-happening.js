@@ -1,12 +1,15 @@
 import React, { useState } from "react";
 import { createTuitThunk } from "../../services/tuits-thunks";
 import { useDispatch } from "react-redux";
+import uuid from 'react-uuid';
+
 
 const WhatsHappening = () => {
   let [whatsHappening, setWhatsHappening] = useState("");
   const dispatch = useDispatch();
   const tuitClickHandler = () => {
     const newTuit = {
+      _id: uuid(),
       tuit: whatsHappening,
       likes: 0,
       liked: false,
